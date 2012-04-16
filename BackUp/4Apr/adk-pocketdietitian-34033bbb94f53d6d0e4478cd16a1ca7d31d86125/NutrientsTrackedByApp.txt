@@ -1,0 +1,8 @@
+sodium
+potassium
+phosphorus
+protein
+fluids
+calories
+carbohydrates
+fat

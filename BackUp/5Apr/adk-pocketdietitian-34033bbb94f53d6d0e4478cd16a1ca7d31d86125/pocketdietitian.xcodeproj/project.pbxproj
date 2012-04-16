@@ -1,0 +1,1327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		775CC7F814CFA3BA00BB65A6 /* MOGEN */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 775CC7F914CFA3BA00BB65A6 /* Build configuration list for PBXAggregateTarget "MOGEN" */;
+			buildPhases = (
+				775CC7FC14CFA3C200BB65A6 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = MOGEN;
+			productName = MOGEN;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		565EF5A9152C432F00C40CB3 /* NutrientValuesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 565EF5A7152C432F00C40CB3 /* NutrientValuesView.m */; };
+		565EF5AA152C432F00C40CB3 /* NutrientValuesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565EF5A8152C432F00C40CB3 /* NutrientValuesView.xib */; };
+		56AC1DA7152AC1C600E4E16B /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1DA5152AC1C600E4E16B /* FirstView.m */; };
+		56AC1DA8152AC1C600E4E16B /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DA6152AC1C600E4E16B /* FirstView.xib */; };
+		56AC1DAC152AC42C00E4E16B /* secondview.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1DAA152AC42C00E4E16B /* secondview.m */; };
+		56AC1DAD152AC42C00E4E16B /* secondview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DAB152AC42C00E4E16B /* secondview.xib */; };
+		56AC1DB2152ACD0300E4E16B /* TermsAndConditionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1DB0152ACD0300E4E16B /* TermsAndConditionView.m */; };
+		56AC1DB3152ACD0300E4E16B /* TermsAndConditionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DB1152ACD0300E4E16B /* TermsAndConditionView.xib */; };
+		56AC1DB8152ACE8900E4E16B /* MedicalConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1DB6152ACE8900E4E16B /* MedicalConditions.m */; };
+		56AC1DB9152ACE8900E4E16B /* MedicalConditions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DB7152ACE8900E4E16B /* MedicalConditions.xib */; };
+		56AC1DBD152ADB1000E4E16B /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DBB152ADB1000E4E16B /* unchecked.png */; };
+		56AC1DBE152ADB1000E4E16B /* check_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DBC152ADB1000E4E16B /* check_selected.png */; };
+		56AC1DC7152AFD2A00E4E16B /* PersonalInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1DC5152AFD2A00E4E16B /* PersonalInformation.m */; };
+		56AC1DC8152AFD2A00E4E16B /* PersonalInformation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DC6152AFD2A00E4E16B /* PersonalInformation.xib */; };
+		56AC1DD5152B31D300E4E16B /* ReviewAndContinueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AC1DD3152B31D300E4E16B /* ReviewAndContinueView.m */; };
+		56AC1DD6152B31D300E4E16B /* ReviewAndContinueView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56AC1DD4152B31D300E4E16B /* ReviewAndContinueView.xib */; };
+		7710346814D342B000343229 /* FoodGroupTableParseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710345D14D3334300343229 /* FoodGroupTableParseTest.m */; };
+		7710347014D36B5000343229 /* NutritionDataTableParseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710346F14D36B5000343229 /* NutritionDataTableParseTest.m */; };
+		7710347314D37B4700343229 /* USDADatabaseImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710347214D37B4700343229 /* USDADatabaseImporter.m */; };
+		7710347614D37D3400343229 /* USDADatabaseImporterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710347514D37D3300343229 /* USDADatabaseImporterTest.m */; };
+		7710347714D37D8700343229 /* USDADatabaseImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710347214D37B4700343229 /* USDADatabaseImporter.m */; };
+		7710348614D8860800343229 /* FoodAmountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710348414D8860800343229 /* FoodAmountViewController.m */; };
+		7710348714D8860800343229 /* FoodAmountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7710348514D8860800343229 /* FoodAmountViewController.xib */; };
+		7710DD2614E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710DD2514E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m */; };
+		7710DD2714E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710DD2514E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m */; };
+		7710DD3A14E48C3F001E18B9 /* NSManagedObjectContext+NSManagedObjectContext_blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7710DD3914E48C3F001E18B9 /* NSManagedObjectContext+NSManagedObjectContext_blocks.m */; };
+		7710DD4014E4B3DB001E18B9 /* button_arrow_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710DD3F14E4B3DB001E18B9 /* button_arrow_bg.png */; };
+		7710DD5514E4DFF4001E18B9 /* pdlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710DD5414E4DFF4001E18B9 /* pdlogo.png */; };
+		7710DD7714EB114A001E18B9 /* progress-bar-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710DD7614EB114A001E18B9 /* progress-bar-bg.png */; };
+		7710DD7914EB1152001E18B9 /* progress-bar-fill.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710DD7814EB1152001E18B9 /* progress-bar-fill.png */; };
+		7710DD8E14EB7AC4001E18B9 /* progress-bar-fill-red.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710DD8C14EB7AC4001E18B9 /* progress-bar-fill-red.png */; };
+		7710DD9114EB7DF3001E18B9 /* progress-bar-fill-yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 7710DD9014EB7DF3001E18B9 /* progress-bar-fill-yellow.png */; };
+		771EB89814D8CE4700884414 /* _Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB88F14D8CE4700884414 /* _Food.m */; };
+		771EB89914D8CE4700884414 /* _Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB88F14D8CE4700884414 /* _Food.m */; };
+		771EB89A14D8CE4700884414 /* _FoodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89114D8CE4700884414 /* _FoodGroup.m */; };
+		771EB89B14D8CE4700884414 /* _FoodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89114D8CE4700884414 /* _FoodGroup.m */; };
+		771EB89C14D8CE4700884414 /* _FoodNutrientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89314D8CE4700884414 /* _FoodNutrientData.m */; };
+		771EB89D14D8CE4700884414 /* _FoodNutrientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89314D8CE4700884414 /* _FoodNutrientData.m */; };
+		771EB89E14D8CE4700884414 /* _FoodUnitWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89514D8CE4700884414 /* _FoodUnitWeight.m */; };
+		771EB89F14D8CE4700884414 /* _FoodUnitWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89514D8CE4700884414 /* _FoodUnitWeight.m */; };
+		771EB8A014D8CE4700884414 /* _Nutrient.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89714D8CE4700884414 /* _Nutrient.m */; };
+		771EB8A114D8CE4700884414 /* _Nutrient.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB89714D8CE4700884414 /* _Nutrient.m */; };
+		771EB8A414D8CE5200884414 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8A314D8CE5200884414 /* Food.m */; };
+		771EB8A514D8CE5200884414 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8A314D8CE5200884414 /* Food.m */; };
+		771EB8AE14D8CE6700884414 /* FoodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8A714D8CE6700884414 /* FoodGroup.m */; };
+		771EB8AF14D8CE6700884414 /* FoodGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8A714D8CE6700884414 /* FoodGroup.m */; };
+		771EB8B014D8CE6700884414 /* FoodNutrientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8A914D8CE6700884414 /* FoodNutrientData.m */; };
+		771EB8B114D8CE6700884414 /* FoodNutrientData.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8A914D8CE6700884414 /* FoodNutrientData.m */; };
+		771EB8B214D8CE6700884414 /* FoodUnitWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8AB14D8CE6700884414 /* FoodUnitWeight.m */; };
+		771EB8B314D8CE6700884414 /* FoodUnitWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8AB14D8CE6700884414 /* FoodUnitWeight.m */; };
+		771EB8B414D8CE6700884414 /* Nutrient.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8AD14D8CE6700884414 /* Nutrient.m */; };
+		771EB8B514D8CE6700884414 /* Nutrient.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8AD14D8CE6700884414 /* Nutrient.m */; };
+		771EB8B814D8F14700884414 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8B714D8F14700884414 /* BaseViewController.m */; };
+		771EB8B914D8F14700884414 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8B714D8F14700884414 /* BaseViewController.m */; };
+		771EB8C814DA0AE300884414 /* MealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8C614DA0AE200884414 /* MealViewController.m */; };
+		771EB8CA14DA0AE300884414 /* MealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771EB8C714DA0AE200884414 /* MealViewController.xib */; };
+		771EB8CB14DA0AE300884414 /* MealViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771EB8C714DA0AE200884414 /* MealViewController.xib */; };
+		771EB8D214DCBC5800884414 /* UIAlertView+MKBlockAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8D114DCBC5800884414 /* UIAlertView+MKBlockAdditions.m */; };
+		771EB8EA14E0BB8400884414 /* SearchFoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB8E814E0BB8400884414 /* SearchFoodViewController.m */; };
+		771EB8EC14E0BB8400884414 /* SearchFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771EB8E914E0BB8400884414 /* SearchFoodViewController.xib */; };
+		771EB8ED14E0BB8400884414 /* SearchFoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771EB8E914E0BB8400884414 /* SearchFoodViewController.xib */; };
+		771EB90214E1D9FC00884414 /* SplitRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB90014E1D9FC00884414 /* SplitRootViewController.m */; };
+		771EB90314E1D9FC00884414 /* SplitRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771EB90114E1D9FC00884414 /* SplitRootViewController.xib */; };
+		771EB90D14E20F2C00884414 /* MealTypeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 771EB90B14E20F2B00884414 /* MealTypeController.m */; };
+		771EB90E14E20F2C00884414 /* MealTypeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771EB90C14E20F2C00884414 /* MealTypeController.xib */; };
+		772A0771150330E40049A932 /* pocketdietitian.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 772A0770150330E40049A932 /* pocketdietitian.sqlite */; };
+		772A0772150330E40049A932 /* pocketdietitian.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 772A0770150330E40049A932 /* pocketdietitian.sqlite */; };
+		772A077F1506D9040049A932 /* NutrientWarningCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A077E1506D9040049A932 /* NutrientWarningCalculator.m */; };
+		772A07801506D9040049A932 /* NutrientWarningCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 772A077E1506D9040049A932 /* NutrientWarningCalculator.m */; };
+		7757B33014EDC30E001636E7 /* NFNProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757B32F14EDC30E001636E7 /* NFNProgressView.m */; };
+		7757B34414F08DE1001636E7 /* UserDailyLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = 7757B34314F08DE0001636E7 /* UserDailyLimits.m */; };
+		775E8C3D1515BCFD00E67D1A /* WarningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DC0725150040DE0083455C /* WarningState.m */; };
+		777BA5DD14CF5CCA00EC9B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5DC14CF5CCA00EC9B71 /* UIKit.framework */; };
+		777BA5DF14CF5CCA00EC9B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5DE14CF5CCA00EC9B71 /* Foundation.framework */; };
+		777BA5E114CF5CCA00EC9B71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5E014CF5CCA00EC9B71 /* CoreGraphics.framework */; };
+		777BA5E314CF5CCA00EC9B71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5E214CF5CCA00EC9B71 /* CoreData.framework */; };
+		777BA5E914CF5CCA00EC9B71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 777BA5E714CF5CCA00EC9B71 /* InfoPlist.strings */; };
+		777BA5EB14CF5CCA00EC9B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777BA5EA14CF5CCA00EC9B71 /* main.m */; };
+		777BA5EF14CF5CCA00EC9B71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 777BA5EE14CF5CCA00EC9B71 /* AppDelegate.m */; };
+		777BA5F214CF5CCA00EC9B71 /* pocketdietitian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 777BA5F014CF5CCA00EC9B71 /* pocketdietitian.xcdatamodeld */; };
+		777BA65214CF72C500EC9B71 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5DC14CF5CCA00EC9B71 /* UIKit.framework */; };
+		777BA65314CF72C500EC9B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5DE14CF5CCA00EC9B71 /* Foundation.framework */; };
+		777BA65414CF72C500EC9B71 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5E014CF5CCA00EC9B71 /* CoreGraphics.framework */; };
+		777BA65A14CF72C500EC9B71 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 777BA65814CF72C500EC9B71 /* InfoPlist.strings */; };
+		777BA65C14CF72C500EC9B71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 777BA65B14CF72C500EC9B71 /* main.m */; };
+		777BA66514CF72FB00EC9B71 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA66414CF72FB00EC9B71 /* GHUnitIOS.framework */; };
+		777BA68114CF7D2B00EC9B71 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 777BA5E214CF5CCA00EC9B71 /* CoreData.framework */; };
+		777BA68D14CF85FB00EC9B71 /* pocketdietitian.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 777BA5F014CF5CCA00EC9B71 /* pocketdietitian.xcdatamodeld */; };
+		777BA69114CF88A400EC9B71 /* USDADataModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 777BA69014CF88A400EC9B71 /* USDADataModelTest.m */; };
+		777BA69414CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 777BA69314CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.m */; };
+		77C7235514FF002500E04638 /* warning_icon_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C7235314FF002500E04638 /* warning_icon_red.png */; };
+		77C7235614FF002500E04638 /* warning_icon_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C7235414FF002500E04638 /* warning_icon_yellow.png */; };
+		77D07B0C14E357DB00AB4E42 /* TermsAndConditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D07B0A14E357DB00AB4E42 /* TermsAndConditions.m */; };
+		77D07B0D14E357DB00AB4E42 /* TermsAndConditions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77D07B0B14E357DB00AB4E42 /* TermsAndConditions.xib */; };
+		77DC0726150040DE0083455C /* WarningState.m in Sources */ = {isa = PBXBuildFile; fileRef = 77DC0725150040DE0083455C /* WarningState.m */; };
+		77DC0729150055CD0083455C /* topHalfMockup.png in Resources */ = {isa = PBXBuildFile; fileRef = 77DC0728150055CD0083455C /* topHalfMockup.png */; };
+		BF1C0D5E14E9A52B000EECD5 /* NFNFoodTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1C0D5D14E9A52B000EECD5 /* NFNFoodTableCell.m */; };
+		BF1C0D6014E9A563000EECD5 /* NFNFoodTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF1C0D5F14E9A563000EECD5 /* NFNFoodTableCell.xib */; };
+		BF43624D15014562005CAED7 /* NutrientLevelsFooter.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF43624C15014562005CAED7 /* NutrientLevelsFooter.xib */; };
+		BF436250150149AA005CAED7 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43624F150149AA005CAED7 /* arrow.png */; };
+		BF43625315015463005CAED7 /* NutrientLevelsFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF43625215015463005CAED7 /* NutrientLevelsFooter.m */; };
+		BF43625B15017357005CAED7 /* iconbar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43625715017357005CAED7 /* iconbar.png */; };
+		BF43625C15017357005CAED7 /* levelsBackgroundTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43625815017357005CAED7 /* levelsBackgroundTexture.png */; };
+		BF43625D15017357005CAED7 /* levelsTitleBar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43625915017357005CAED7 /* levelsTitleBar.png */; };
+		BF43625E15017357005CAED7 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43625A15017357005CAED7 /* navbar.png */; };
+		BF4362601501752F005CAED7 /* tablecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43625F1501752F005CAED7 /* tablecloth.png */; };
+		BF4362621501767D005CAED7 /* planameal.png in Resources */ = {isa = PBXBuildFile; fileRef = BF4362611501767D005CAED7 /* planameal.png */; };
+		BF43626815018153005CAED7 /* about_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43626415018153005CAED7 /* about_off.png */; };
+		BF43626915018153005CAED7 /* askdietitian_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43626515018153005CAED7 /* askdietitian_off.png */; };
+		BF43626A15018153005CAED7 /* editdiet_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43626615018153005CAED7 /* editdiet_off.png */; };
+		BF43626B15018153005CAED7 /* overview_off.png in Resources */ = {isa = PBXBuildFile; fileRef = BF43626715018153005CAED7 /* overview_off.png */; };
+		BF663CF014FC3B4500393418 /* _DailyNutrientLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CE914FC3B4500393418 /* _DailyNutrientLevels.m */; };
+		BF663CF114FC3B4500393418 /* _DailyNutrientLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CE914FC3B4500393418 /* _DailyNutrientLevels.m */; };
+		BF663CF414FC3B4500393418 /* _NutrientLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CED14FC3B4500393418 /* _NutrientLevel.m */; };
+		BF663CF514FC3B4500393418 /* _NutrientLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CED14FC3B4500393418 /* _NutrientLevel.m */; };
+		BF663D0114FC3B8000393418 /* DailyNutrientLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CFA14FC3B7F00393418 /* DailyNutrientLevels.m */; };
+		BF663D0214FC3B8000393418 /* DailyNutrientLevels.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CFA14FC3B7F00393418 /* DailyNutrientLevels.m */; };
+		BF663D0514FC3B8000393418 /* NutrientLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CFE14FC3B8000393418 /* NutrientLevel.m */; };
+		BF663D0614FC3B8000393418 /* NutrientLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663CFE14FC3B8000393418 /* NutrientLevel.m */; };
+		BF663D0914FC3F5F00393418 /* NutrientLevelDataModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF663D0814FC3F5F00393418 /* NutrientLevelDataModelTest.m */; };
+		BF7F8C4D14EC765F000879D4 /* NutrientAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F8C4C14EC765F000879D4 /* NutrientAmount.m */; };
+		BF7F8C5114EF11FD000879D4 /* MealTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F8C5014EF11FD000879D4 /* MealTest.m */; };
+		BF7F8C5214EF189D000879D4 /* NFNNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = BF990A5814EAFE10008FA0F6 /* NFNNumber.m */; };
+		BF7F8C5314EF189D000879D4 /* MealPortion.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCA40E414E333FE0069152B /* MealPortion.m */; };
+		BF7F8C5414EF18AD000879D4 /* NutrientAmount.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7F8C4C14EC765F000879D4 /* NutrientAmount.m */; };
+		BF7F8C5514EF1D89000879D4 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCF1ECB14E32A6500964656 /* Meal.m */; };
+		BF990A5914EAFE10008FA0F6 /* NFNNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = BF990A5814EAFE10008FA0F6 /* NFNNumber.m */; };
+		BF9B4EF814D2527B00A79FF1 /* FD_GROUP.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF9B4EEC14D2524B00A79FF1 /* FD_GROUP.txt */; };
+		BF9B4EF914D2527E00A79FF1 /* FOOD_DES.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF9B4EED14D2524B00A79FF1 /* FOOD_DES.txt */; };
+		BF9B4EFA14D2528200A79FF1 /* NUT_DATA.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF9B4EEE14D2524B00A79FF1 /* NUT_DATA.txt */; };
+		BF9B4EFB14D2528500A79FF1 /* NUTR_DEF.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF9B4EEF14D2524B00A79FF1 /* NUTR_DEF.txt */; };
+		BF9B4EFC14D2528800A79FF1 /* WEIGHT.txt in Resources */ = {isa = PBXBuildFile; fileRef = BF9B4EF014D2524B00A79FF1 /* WEIGHT.txt */; };
+		BF9B4F0214D252CA00A79FF1 /* USDATableParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B4EFF14D252CA00A79FF1 /* USDATableParser.m */; };
+		BF9B4F0314D252CA00A79FF1 /* USDATableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B4F0114D252CA00A79FF1 /* USDATableRow.m */; };
+		BF9B4F0414D2530C00A79FF1 /* USDATableParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B4EFF14D252CA00A79FF1 /* USDATableParser.m */; };
+		BF9B4F0514D2530F00A79FF1 /* USDATableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9B4F0114D252CA00A79FF1 /* USDATableRow.m */; };
+		BFBA61D714F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBA61D614F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.m */; };
+		BFBB9BE414F4264D00EE39B7 /* UserDietTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB9BE314F4264D00EE39B7 /* UserDietTest.m */; };
+		BFBB9BEF14F4311D00EE39B7 /* DefaultDietBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB9BEE14F4311D00EE39B7 /* DefaultDietBuilder.m */; };
+		BFBB9C0314F4635E00EE39B7 /* NFNNutrientLevelView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBB9C0214F4635E00EE39B7 /* NFNNutrientLevelView.xib */; };
+		BFBB9C0614F463E600EE39B7 /* NFNNutrientLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBB9C0514F463E600EE39B7 /* NFNNutrientLevelView.m */; };
+		BFBB9C0814F5502400EE39B7 /* NFNProgressView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFBB9C0714F5502300EE39B7 /* NFNProgressView.xib */; };
+		BFCA40E514E333FE0069152B /* MealPortion.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCA40E414E333FE0069152B /* MealPortion.m */; };
+		BFCF1ECC14E32A6500964656 /* Meal.m in Sources */ = {isa = PBXBuildFile; fileRef = BFCF1ECB14E32A6500964656 /* Meal.m */; };
+		BFD570BE1500017E003D25AA /* NSObject+NutrientDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD570BD1500017E003D25AA /* NSObject+NutrientDataHelper.m */; };
+		BFD570C215000495003D25AA /* NSDate+NSDateAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD570C115000495003D25AA /* NSDate+NSDateAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		565EF5A6152C432F00C40CB3 /* NutrientValuesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientValuesView.h; sourceTree = "<group>"; };
+		565EF5A7152C432F00C40CB3 /* NutrientValuesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientValuesView.m; sourceTree = "<group>"; };
+		565EF5A8152C432F00C40CB3 /* NutrientValuesView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NutrientValuesView.xib; sourceTree = "<group>"; };
+		56AC1DA4152AC1C600E4E16B /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstView.h; sourceTree = "<group>"; };
+		56AC1DA5152AC1C600E4E16B /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstView.m; sourceTree = "<group>"; };
+		56AC1DA6152AC1C600E4E16B /* FirstView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
+		56AC1DA9152AC42C00E4E16B /* secondview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondview.h; sourceTree = "<group>"; };
+		56AC1DAA152AC42C00E4E16B /* secondview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondview.m; sourceTree = "<group>"; };
+		56AC1DAB152AC42C00E4E16B /* secondview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = secondview.xib; sourceTree = "<group>"; };
+		56AC1DAF152ACD0300E4E16B /* TermsAndConditionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsAndConditionView.h; sourceTree = "<group>"; };
+		56AC1DB0152ACD0300E4E16B /* TermsAndConditionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditionView.m; sourceTree = "<group>"; };
+		56AC1DB1152ACD0300E4E16B /* TermsAndConditionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsAndConditionView.xib; sourceTree = "<group>"; };
+		56AC1DB5152ACE8900E4E16B /* MedicalConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalConditions.h; sourceTree = "<group>"; };
+		56AC1DB6152ACE8900E4E16B /* MedicalConditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MedicalConditions.m; sourceTree = "<group>"; };
+		56AC1DB7152ACE8900E4E16B /* MedicalConditions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MedicalConditions.xib; sourceTree = "<group>"; };
+		56AC1DBB152ADB1000E4E16B /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+		56AC1DBC152ADB1000E4E16B /* check_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_selected.png; sourceTree = "<group>"; };
+		56AC1DC4152AFD2A00E4E16B /* PersonalInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalInformation.h; sourceTree = "<group>"; };
+		56AC1DC5152AFD2A00E4E16B /* PersonalInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalInformation.m; sourceTree = "<group>"; };
+		56AC1DC6152AFD2A00E4E16B /* PersonalInformation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonalInformation.xib; sourceTree = "<group>"; };
+		56AC1DD2152B31D300E4E16B /* ReviewAndContinueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewAndContinueView.h; sourceTree = "<group>"; };
+		56AC1DD3152B31D300E4E16B /* ReviewAndContinueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewAndContinueView.m; sourceTree = "<group>"; };
+		56AC1DD4152B31D300E4E16B /* ReviewAndContinueView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewAndContinueView.xib; sourceTree = "<group>"; };
+		7710345D14D3334300343229 /* FoodGroupTableParseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodGroupTableParseTest.m; sourceTree = "<group>"; };
+		7710346F14D36B5000343229 /* NutritionDataTableParseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutritionDataTableParseTest.m; sourceTree = "<group>"; };
+		7710347114D37B4700343229 /* USDADatabaseImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDADatabaseImporter.h; sourceTree = "<group>"; };
+		7710347214D37B4700343229 /* USDADatabaseImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDADatabaseImporter.m; sourceTree = "<group>"; };
+		7710347514D37D3300343229 /* USDADatabaseImporterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDADatabaseImporterTest.m; sourceTree = "<group>"; };
+		7710348314D8860800343229 /* FoodAmountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodAmountViewController.h; sourceTree = "<group>"; };
+		7710348414D8860800343229 /* FoodAmountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodAmountViewController.m; sourceTree = "<group>"; };
+		7710348514D8860800343229 /* FoodAmountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodAmountViewController.xib; sourceTree = "<group>"; };
+		7710DD2414E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+SingleLineFetch.h"; sourceTree = "<group>"; };
+		7710DD2514E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+SingleLineFetch.m"; sourceTree = "<group>"; };
+		7710DD3914E48C3F001E18B9 /* NSManagedObjectContext+NSManagedObjectContext_blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+NSManagedObjectContext_blocks.m"; sourceTree = "<group>"; };
+		7710DD3F14E4B3DB001E18B9 /* button_arrow_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_arrow_bg.png; sourceTree = "<group>"; };
+		7710DD5414E4DFF4001E18B9 /* pdlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pdlogo.png; sourceTree = "<group>"; };
+		7710DD7614EB114A001E18B9 /* progress-bar-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-bg.png"; sourceTree = "<group>"; };
+		7710DD7814EB1152001E18B9 /* progress-bar-fill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-fill.png"; sourceTree = "<group>"; };
+		7710DD8C14EB7AC4001E18B9 /* progress-bar-fill-red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-fill-red.png"; sourceTree = "<group>"; };
+		7710DD9014EB7DF3001E18B9 /* progress-bar-fill-yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress-bar-fill-yellow.png"; sourceTree = "<group>"; };
+		771EB88E14D8CE4700884414 /* _Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Food.h; sourceTree = "<group>"; };
+		771EB88F14D8CE4700884414 /* _Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Food.m; sourceTree = "<group>"; };
+		771EB89014D8CE4700884414 /* _FoodGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FoodGroup.h; sourceTree = "<group>"; };
+		771EB89114D8CE4700884414 /* _FoodGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FoodGroup.m; sourceTree = "<group>"; };
+		771EB89214D8CE4700884414 /* _FoodNutrientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FoodNutrientData.h; sourceTree = "<group>"; };
+		771EB89314D8CE4700884414 /* _FoodNutrientData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FoodNutrientData.m; sourceTree = "<group>"; };
+		771EB89414D8CE4700884414 /* _FoodUnitWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _FoodUnitWeight.h; sourceTree = "<group>"; };
+		771EB89514D8CE4700884414 /* _FoodUnitWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _FoodUnitWeight.m; sourceTree = "<group>"; };
+		771EB89614D8CE4700884414 /* _Nutrient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _Nutrient.h; sourceTree = "<group>"; };
+		771EB89714D8CE4700884414 /* _Nutrient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _Nutrient.m; sourceTree = "<group>"; };
+		771EB8A214D8CE5200884414 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
+		771EB8A314D8CE5200884414 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
+		771EB8A614D8CE6700884414 /* FoodGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodGroup.h; sourceTree = "<group>"; };
+		771EB8A714D8CE6700884414 /* FoodGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodGroup.m; sourceTree = "<group>"; };
+		771EB8A814D8CE6700884414 /* FoodNutrientData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodNutrientData.h; sourceTree = "<group>"; };
+		771EB8A914D8CE6700884414 /* FoodNutrientData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodNutrientData.m; sourceTree = "<group>"; };
+		771EB8AA14D8CE6700884414 /* FoodUnitWeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodUnitWeight.h; sourceTree = "<group>"; };
+		771EB8AB14D8CE6700884414 /* FoodUnitWeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodUnitWeight.m; sourceTree = "<group>"; };
+		771EB8AC14D8CE6700884414 /* Nutrient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nutrient.h; sourceTree = "<group>"; };
+		771EB8AD14D8CE6700884414 /* Nutrient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nutrient.m; sourceTree = "<group>"; };
+		771EB8B614D8F14700884414 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		771EB8B714D8F14700884414 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		771EB8C514DA0AE200884414 /* MealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealViewController.h; sourceTree = "<group>"; };
+		771EB8C614DA0AE200884414 /* MealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealViewController.m; sourceTree = "<group>"; };
+		771EB8C714DA0AE200884414 /* MealViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealViewController.xib; sourceTree = "<group>"; };
+		771EB8D014DCBC5800884414 /* UIAlertView+MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKBlockAdditions.h"; sourceTree = "<group>"; };
+		771EB8D114DCBC5800884414 /* UIAlertView+MKBlockAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKBlockAdditions.m"; sourceTree = "<group>"; };
+		771EB8D314DCBF0900884414 /* MKBlockAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlockAdditions.h; sourceTree = "<group>"; };
+		771EB8E714E0BB8400884414 /* SearchFoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFoodViewController.h; sourceTree = "<group>"; };
+		771EB8E814E0BB8400884414 /* SearchFoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFoodViewController.m; sourceTree = "<group>"; };
+		771EB8E914E0BB8400884414 /* SearchFoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchFoodViewController.xib; sourceTree = "<group>"; };
+		771EB8FF14E1D9FC00884414 /* SplitRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplitRootViewController.h; sourceTree = "<group>"; };
+		771EB90014E1D9FC00884414 /* SplitRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplitRootViewController.m; sourceTree = "<group>"; };
+		771EB90114E1D9FC00884414 /* SplitRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplitRootViewController.xib; sourceTree = "<group>"; };
+		771EB90A14E20F2B00884414 /* MealTypeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealTypeController.h; sourceTree = "<group>"; };
+		771EB90B14E20F2B00884414 /* MealTypeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealTypeController.m; sourceTree = "<group>"; };
+		771EB90C14E20F2C00884414 /* MealTypeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealTypeController.xib; sourceTree = "<group>"; };
+		772A0770150330E40049A932 /* pocketdietitian.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = pocketdietitian.sqlite; sourceTree = "<group>"; };
+		772A077D1506D9030049A932 /* NutrientWarningCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientWarningCalculator.h; sourceTree = "<group>"; };
+		772A077E1506D9040049A932 /* NutrientWarningCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientWarningCalculator.m; sourceTree = "<group>"; };
+		7757B32E14EDC30E001636E7 /* NFNProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFNProgressView.h; sourceTree = "<group>"; };
+		7757B32F14EDC30E001636E7 /* NFNProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFNProgressView.m; sourceTree = "<group>"; };
+		7757B34214F08DE0001636E7 /* UserDailyLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDailyLimits.h; sourceTree = "<group>"; };
+		7757B34314F08DE0001636E7 /* UserDailyLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDailyLimits.m; sourceTree = "<group>"; };
+		777BA5D814CF5CCA00EC9B71 /* pocketdietitian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketdietitian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777BA5DC14CF5CCA00EC9B71 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		777BA5DE14CF5CCA00EC9B71 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		777BA5E014CF5CCA00EC9B71 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		777BA5E214CF5CCA00EC9B71 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		777BA5E614CF5CCA00EC9B71 /* pocketdietitian-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pocketdietitian-Info.plist"; sourceTree = "<group>"; };
+		777BA5E814CF5CCA00EC9B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		777BA5EA14CF5CCA00EC9B71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		777BA5EC14CF5CCA00EC9B71 /* pocketdietitian-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pocketdietitian-Prefix.pch"; sourceTree = "<group>"; };
+		777BA5ED14CF5CCA00EC9B71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		777BA5EE14CF5CCA00EC9B71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		777BA5F114CF5CCA00EC9B71 /* pocketdietitian.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = pocketdietitian.xcdatamodel; sourceTree = "<group>"; };
+		777BA61114CF6A1900EC9B71 /* pocketdietitian 1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "pocketdietitian 1.xcdatamodel"; sourceTree = "<group>"; };
+		777BA65014CF72C500EC9B71 /* Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		777BA65714CF72C500EC9B71 /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		777BA65914CF72C500EC9B71 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		777BA65B14CF72C500EC9B71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		777BA65D14CF72C500EC9B71 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		777BA66414CF72FB00EC9B71 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		777BA69014CF88A400EC9B71 /* USDADataModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDADataModelTest.m; sourceTree = "<group>"; };
+		777BA69214CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFNBaseCoreDataTestCase.h; sourceTree = "<group>"; };
+		777BA69314CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFNBaseCoreDataTestCase.m; sourceTree = "<group>"; };
+		77C7233514FEEE2C00E04638 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		77C7235314FF002500E04638 /* warning_icon_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning_icon_red.png; sourceTree = "<group>"; };
+		77C7235414FF002500E04638 /* warning_icon_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning_icon_yellow.png; sourceTree = "<group>"; };
+		77D07B0914E357DB00AB4E42 /* TermsAndConditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsAndConditions.h; sourceTree = "<group>"; };
+		77D07B0A14E357DB00AB4E42 /* TermsAndConditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditions.m; sourceTree = "<group>"; };
+		77D07B0B14E357DB00AB4E42 /* TermsAndConditions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsAndConditions.xib; sourceTree = "<group>"; };
+		77D07B0F14E368CF00AB4E42 /* warning_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = warning_icon.png; path = /Users/andrej/iOS/pocketdietitian/pocketdietitian/warning_icon.png; sourceTree = "<absolute>"; };
+		77DC0724150040DE0083455C /* WarningState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningState.h; sourceTree = "<group>"; };
+		77DC0725150040DE0083455C /* WarningState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarningState.m; sourceTree = "<group>"; };
+		77DC0728150055CD0083455C /* topHalfMockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topHalfMockup.png; sourceTree = "<group>"; };
+		BF1C0D5C14E9A52B000EECD5 /* NFNFoodTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFNFoodTableCell.h; sourceTree = "<group>"; };
+		BF1C0D5D14E9A52B000EECD5 /* NFNFoodTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFNFoodTableCell.m; sourceTree = "<group>"; };
+		BF1C0D5F14E9A563000EECD5 /* NFNFoodTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFNFoodTableCell.xib; sourceTree = "<group>"; };
+		BF43624C15014562005CAED7 /* NutrientLevelsFooter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NutrientLevelsFooter.xib; sourceTree = "<group>"; };
+		BF43624F150149AA005CAED7 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		BF43625115015463005CAED7 /* NutrientLevelsFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientLevelsFooter.h; sourceTree = "<group>"; };
+		BF43625215015463005CAED7 /* NutrientLevelsFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientLevelsFooter.m; sourceTree = "<group>"; };
+		BF43625715017357005CAED7 /* iconbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconbar.png; sourceTree = "<group>"; };
+		BF43625815017357005CAED7 /* levelsBackgroundTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelsBackgroundTexture.png; sourceTree = "<group>"; };
+		BF43625915017357005CAED7 /* levelsTitleBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = levelsTitleBar.png; sourceTree = "<group>"; };
+		BF43625A15017357005CAED7 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		BF43625F1501752F005CAED7 /* tablecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablecloth.png; sourceTree = "<group>"; };
+		BF4362611501767D005CAED7 /* planameal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planameal.png; sourceTree = "<group>"; };
+		BF43626415018153005CAED7 /* about_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_off.png; sourceTree = "<group>"; };
+		BF43626515018153005CAED7 /* askdietitian_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = askdietitian_off.png; sourceTree = "<group>"; };
+		BF43626615018153005CAED7 /* editdiet_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editdiet_off.png; sourceTree = "<group>"; };
+		BF43626715018153005CAED7 /* overview_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overview_off.png; sourceTree = "<group>"; };
+		BF663CE814FC3B4500393418 /* _DailyNutrientLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _DailyNutrientLevels.h; sourceTree = "<group>"; };
+		BF663CE914FC3B4500393418 /* _DailyNutrientLevels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _DailyNutrientLevels.m; sourceTree = "<group>"; };
+		BF663CEC14FC3B4500393418 /* _NutrientLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _NutrientLevel.h; sourceTree = "<group>"; };
+		BF663CED14FC3B4500393418 /* _NutrientLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _NutrientLevel.m; sourceTree = "<group>"; };
+		BF663CF914FC3B7F00393418 /* DailyNutrientLevels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyNutrientLevels.h; sourceTree = "<group>"; };
+		BF663CFA14FC3B7F00393418 /* DailyNutrientLevels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyNutrientLevels.m; sourceTree = "<group>"; };
+		BF663CFD14FC3B8000393418 /* NutrientLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientLevel.h; sourceTree = "<group>"; };
+		BF663CFE14FC3B8000393418 /* NutrientLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientLevel.m; sourceTree = "<group>"; };
+		BF663D0714FC3F5F00393418 /* NutrientLevelDataModelTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientLevelDataModelTest.h; sourceTree = "<group>"; };
+		BF663D0814FC3F5F00393418 /* NutrientLevelDataModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientLevelDataModelTest.m; sourceTree = "<group>"; };
+		BF7F8C4B14EC765F000879D4 /* NutrientAmount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NutrientAmount.h; sourceTree = "<group>"; };
+		BF7F8C4C14EC765F000879D4 /* NutrientAmount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NutrientAmount.m; sourceTree = "<group>"; };
+		BF7F8C4F14EF11FD000879D4 /* MealTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealTest.h; sourceTree = "<group>"; };
+		BF7F8C5014EF11FD000879D4 /* MealTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealTest.m; sourceTree = "<group>"; };
+		BF990A5714EAFE10008FA0F6 /* NFNNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFNNumber.h; sourceTree = "<group>"; };
+		BF990A5814EAFE10008FA0F6 /* NFNNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFNNumber.m; sourceTree = "<group>"; };
+		BF9B4EEC14D2524B00A79FF1 /* FD_GROUP.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FD_GROUP.txt; sourceTree = "<group>"; };
+		BF9B4EED14D2524B00A79FF1 /* FOOD_DES.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FOOD_DES.txt; sourceTree = "<group>"; };
+		BF9B4EEE14D2524B00A79FF1 /* NUT_DATA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NUT_DATA.txt; sourceTree = "<group>"; };
+		BF9B4EEF14D2524B00A79FF1 /* NUTR_DEF.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NUTR_DEF.txt; sourceTree = "<group>"; };
+		BF9B4EF014D2524B00A79FF1 /* WEIGHT.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WEIGHT.txt; sourceTree = "<group>"; };
+		BF9B4EFE14D252CA00A79FF1 /* USDATableParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDATableParser.h; sourceTree = "<group>"; };
+		BF9B4EFF14D252CA00A79FF1 /* USDATableParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDATableParser.m; sourceTree = "<group>"; };
+		BF9B4F0014D252CA00A79FF1 /* USDATableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USDATableRow.h; sourceTree = "<group>"; };
+		BF9B4F0114D252CA00A79FF1 /* USDATableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = USDATableRow.m; sourceTree = "<group>"; };
+		BFBA61D514F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserConsumedNutrientLevelsAndLimits.h; sourceTree = "<group>"; };
+		BFBA61D614F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserConsumedNutrientLevelsAndLimits.m; sourceTree = "<group>"; };
+		BFBB9BE214F4264D00EE39B7 /* UserDietTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDietTest.h; sourceTree = "<group>"; };
+		BFBB9BE314F4264D00EE39B7 /* UserDietTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDietTest.m; sourceTree = "<group>"; };
+		BFBB9BED14F4311D00EE39B7 /* DefaultDietBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefaultDietBuilder.h; sourceTree = "<group>"; };
+		BFBB9BEE14F4311D00EE39B7 /* DefaultDietBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DefaultDietBuilder.m; sourceTree = "<group>"; };
+		BFBB9C0214F4635E00EE39B7 /* NFNNutrientLevelView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFNNutrientLevelView.xib; sourceTree = "<group>"; };
+		BFBB9C0414F463E600EE39B7 /* NFNNutrientLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFNNutrientLevelView.h; sourceTree = "<group>"; };
+		BFBB9C0514F463E600EE39B7 /* NFNNutrientLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFNNutrientLevelView.m; sourceTree = "<group>"; };
+		BFBB9C0714F5502300EE39B7 /* NFNProgressView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NFNProgressView.xib; sourceTree = "<group>"; };
+		BFCA40E314E333FE0069152B /* MealPortion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealPortion.h; sourceTree = "<group>"; };
+		BFCA40E414E333FE0069152B /* MealPortion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealPortion.m; sourceTree = "<group>"; };
+		BFCF1ECA14E32A6500964656 /* Meal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Meal.h; sourceTree = "<group>"; };
+		BFCF1ECB14E32A6500964656 /* Meal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Meal.m; sourceTree = "<group>"; };
+		BFD570BC1500017E003D25AA /* NSObject+NutrientDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NutrientDataHelper.h"; sourceTree = "<group>"; };
+		BFD570BD1500017E003D25AA /* NSObject+NutrientDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NutrientDataHelper.m"; sourceTree = "<group>"; };
+		BFD570C015000495003D25AA /* NSDate+NSDateAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+NSDateAdditions.h"; sourceTree = "<group>"; };
+		BFD570C115000495003D25AA /* NSDate+NSDateAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+NSDateAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		777BA5D514CF5CCA00EC9B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BA5DD14CF5CCA00EC9B71 /* UIKit.framework in Frameworks */,
+				777BA5DF14CF5CCA00EC9B71 /* Foundation.framework in Frameworks */,
+				777BA5E114CF5CCA00EC9B71 /* CoreGraphics.framework in Frameworks */,
+				777BA5E314CF5CCA00EC9B71 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777BA64D14CF72C500EC9B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BA68114CF7D2B00EC9B71 /* CoreData.framework in Frameworks */,
+				777BA65214CF72C500EC9B71 /* UIKit.framework in Frameworks */,
+				777BA65314CF72C500EC9B71 /* Foundation.framework in Frameworks */,
+				777BA65414CF72C500EC9B71 /* CoreGraphics.framework in Frameworks */,
+				777BA66514CF72FB00EC9B71 /* GHUnitIOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		565EF5A4152C42F800C40CB3 /* FifthView */ = {
+			isa = PBXGroup;
+			children = (
+				565EF5A6152C432F00C40CB3 /* NutrientValuesView.h */,
+				565EF5A7152C432F00C40CB3 /* NutrientValuesView.m */,
+				565EF5A8152C432F00C40CB3 /* NutrientValuesView.xib */,
+			);
+			name = FifthView;
+			sourceTree = "<group>";
+		};
+		56AC1DAE152ACCB600E4E16B /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				56AC1DAF152ACD0300E4E16B /* TermsAndConditionView.h */,
+				56AC1DB0152ACD0300E4E16B /* TermsAndConditionView.m */,
+				56AC1DB1152ACD0300E4E16B /* TermsAndConditionView.xib */,
+			);
+			name = FirstView;
+			sourceTree = "<group>";
+		};
+		56AC1DB4152ACE3D00E4E16B /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				56AC1DB5152ACE8900E4E16B /* MedicalConditions.h */,
+				56AC1DB6152ACE8900E4E16B /* MedicalConditions.m */,
+				56AC1DB7152ACE8900E4E16B /* MedicalConditions.xib */,
+			);
+			name = SecondView;
+			sourceTree = "<group>";
+		};
+		56AC1DBA152ADB0200E4E16B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				56AC1DBB152ADB1000E4E16B /* unchecked.png */,
+				56AC1DBC152ADB1000E4E16B /* check_selected.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		56AC1DC2152AFCC800E4E16B /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				56AC1DC4152AFD2A00E4E16B /* PersonalInformation.h */,
+				56AC1DC5152AFD2A00E4E16B /* PersonalInformation.m */,
+				56AC1DC6152AFD2A00E4E16B /* PersonalInformation.xib */,
+			);
+			name = ThirdView;
+			sourceTree = "<group>";
+		};
+		56AC1DD1152B301D00E4E16B /* FourthView */ = {
+			isa = PBXGroup;
+			children = (
+				56AC1DD2152B31D300E4E16B /* ReviewAndContinueView.h */,
+				56AC1DD3152B31D300E4E16B /* ReviewAndContinueView.m */,
+				56AC1DD4152B31D300E4E16B /* ReviewAndContinueView.xib */,
+			);
+			name = FourthView;
+			sourceTree = "<group>";
+		};
+		7710348214D885CB00343229 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C0D5B14E9A299000EECD5 /* Custom */,
+				771EB8C514DA0AE200884414 /* MealViewController.h */,
+				771EB8C614DA0AE200884414 /* MealViewController.m */,
+				771EB8C714DA0AE200884414 /* MealViewController.xib */,
+				7710348314D8860800343229 /* FoodAmountViewController.h */,
+				7710348414D8860800343229 /* FoodAmountViewController.m */,
+				7710348514D8860800343229 /* FoodAmountViewController.xib */,
+				771EB8B614D8F14700884414 /* BaseViewController.h */,
+				771EB8B714D8F14700884414 /* BaseViewController.m */,
+				771EB8E714E0BB8400884414 /* SearchFoodViewController.h */,
+				771EB8E814E0BB8400884414 /* SearchFoodViewController.m */,
+				771EB8E914E0BB8400884414 /* SearchFoodViewController.xib */,
+				771EB8FF14E1D9FC00884414 /* SplitRootViewController.h */,
+				771EB90014E1D9FC00884414 /* SplitRootViewController.m */,
+				771EB90114E1D9FC00884414 /* SplitRootViewController.xib */,
+				771EB90A14E20F2B00884414 /* MealTypeController.h */,
+				771EB90B14E20F2B00884414 /* MealTypeController.m */,
+				771EB90C14E20F2C00884414 /* MealTypeController.xib */,
+				77D07B0914E357DB00AB4E42 /* TermsAndConditions.h */,
+				77D07B0A14E357DB00AB4E42 /* TermsAndConditions.m */,
+				77D07B0B14E357DB00AB4E42 /* TermsAndConditions.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		7710DD3714E48A4F001E18B9 /* MKBlockAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				771EB8D314DCBF0900884414 /* MKBlockAdditions.h */,
+				771EB8D014DCBC5800884414 /* UIAlertView+MKBlockAdditions.h */,
+				771EB8D114DCBC5800884414 /* UIAlertView+MKBlockAdditions.m */,
+			);
+			name = MKBlockAdditions;
+			sourceTree = "<group>";
+		};
+		7710DD8314EB436D001E18B9 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BF3CD984150191AB00F8926E /* levels */,
+				BF436256150172FE005CAED7 /* dashboard */,
+				BF43624F150149AA005CAED7 /* arrow.png */,
+				77DC0728150055CD0083455C /* topHalfMockup.png */,
+				7710DD5414E4DFF4001E18B9 /* pdlogo.png */,
+				7710DD3F14E4B3DB001E18B9 /* button_arrow_bg.png */,
+				77D07B0F14E368CF00AB4E42 /* warning_icon.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		771EB88D14D8CE3700884414 /* _generated */ = {
+			isa = PBXGroup;
+			children = (
+				BF663CE814FC3B4500393418 /* _DailyNutrientLevels.h */,
+				BF663CE914FC3B4500393418 /* _DailyNutrientLevels.m */,
+				BF663CEC14FC3B4500393418 /* _NutrientLevel.h */,
+				BF663CED14FC3B4500393418 /* _NutrientLevel.m */,
+				771EB88E14D8CE4700884414 /* _Food.h */,
+				771EB88F14D8CE4700884414 /* _Food.m */,
+				771EB89014D8CE4700884414 /* _FoodGroup.h */,
+				771EB89114D8CE4700884414 /* _FoodGroup.m */,
+				771EB89214D8CE4700884414 /* _FoodNutrientData.h */,
+				771EB89314D8CE4700884414 /* _FoodNutrientData.m */,
+				771EB89414D8CE4700884414 /* _FoodUnitWeight.h */,
+				771EB89514D8CE4700884414 /* _FoodUnitWeight.m */,
+				771EB89614D8CE4700884414 /* _Nutrient.h */,
+				771EB89714D8CE4700884414 /* _Nutrient.m */,
+			);
+			name = _generated;
+			sourceTree = "<group>";
+		};
+		771EB8CF14DCBC3D00884414 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				7710DD2414E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.h */,
+				7710DD2514E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m */,
+				BFD570BF15000448003D25AA /* Date */,
+				BFD570BA1500011E003D25AA /* Nutrient */,
+				7710DD3714E48A4F001E18B9 /* MKBlockAdditions */,
+				7710DD3914E48C3F001E18B9 /* NSManagedObjectContext+NSManagedObjectContext_blocks.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		775CC84414CFA66C00BB65A6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF663CF914FC3B7F00393418 /* DailyNutrientLevels.h */,
+				BF663CFA14FC3B7F00393418 /* DailyNutrientLevels.m */,
+				BF663CFD14FC3B8000393418 /* NutrientLevel.h */,
+				BF663CFE14FC3B8000393418 /* NutrientLevel.m */,
+				771EB8A614D8CE6700884414 /* FoodGroup.h */,
+				771EB8A714D8CE6700884414 /* FoodGroup.m */,
+				771EB8A814D8CE6700884414 /* FoodNutrientData.h */,
+				771EB8A914D8CE6700884414 /* FoodNutrientData.m */,
+				771EB8AA14D8CE6700884414 /* FoodUnitWeight.h */,
+				771EB8AB14D8CE6700884414 /* FoodUnitWeight.m */,
+				771EB8AC14D8CE6700884414 /* Nutrient.h */,
+				771EB8AD14D8CE6700884414 /* Nutrient.m */,
+				771EB8A214D8CE5200884414 /* Food.h */,
+				771EB8A314D8CE5200884414 /* Food.m */,
+				771EB88D14D8CE3700884414 /* _generated */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		777BA5CD14CF5CCA00EC9B71 = {
+			isa = PBXGroup;
+			children = (
+				777BA5E414CF5CCA00EC9B71 /* pocketdietitian */,
+				777BA65514CF72C500EC9B71 /* Tests */,
+				777BA5DB14CF5CCA00EC9B71 /* Frameworks */,
+				777BA5D914CF5CCA00EC9B71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		777BA5D914CF5CCA00EC9B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				777BA5D814CF5CCA00EC9B71 /* pocketdietitian.app */,
+				777BA65014CF72C500EC9B71 /* Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		777BA5DB14CF5CCA00EC9B71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				777BA66414CF72FB00EC9B71 /* GHUnitIOS.framework */,
+				777BA5DC14CF5CCA00EC9B71 /* UIKit.framework */,
+				777BA5DE14CF5CCA00EC9B71 /* Foundation.framework */,
+				777BA5E014CF5CCA00EC9B71 /* CoreGraphics.framework */,
+				777BA5E214CF5CCA00EC9B71 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		777BA5E414CF5CCA00EC9B71 /* pocketdietitian */ = {
+			isa = PBXGroup;
+			children = (
+				565EF5A4152C42F800C40CB3 /* FifthView */,
+				56AC1DD1152B301D00E4E16B /* FourthView */,
+				56AC1DC2152AFCC800E4E16B /* ThirdView */,
+				56AC1DBA152ADB0200E4E16B /* Image */,
+				56AC1DB4152ACE3D00E4E16B /* SecondView */,
+				56AC1DAE152ACCB600E4E16B /* FirstView */,
+				BFBB9BEB14F430B300EE39B7 /* DietInfo */,
+				7710DD8314EB436D001E18B9 /* assets */,
+				BF990A5514EAFDE7008FA0F6 /* Math */,
+				7710DD5414E4DFF4001E18B9 /* pdlogo.png */,
+				7710DD3F14E4B3DB001E18B9 /* button_arrow_bg.png */,
+				BFCF1EC814E32A0F00964656 /* MealInfo */,
+				771EB8CF14DCBC3D00884414 /* Categories */,
+				7710348214D885CB00343229 /* UI */,
+				775CC84414CFA66C00BB65A6 /* DataModel */,
+				BF9B4EFD14D2529900A79FF1 /* USDAUtils */,
+				777BA5F014CF5CCA00EC9B71 /* pocketdietitian.xcdatamodeld */,
+				777BA5ED14CF5CCA00EC9B71 /* AppDelegate.h */,
+				777BA5EE14CF5CCA00EC9B71 /* AppDelegate.m */,
+				777BA5E514CF5CCA00EC9B71 /* Supporting Files */,
+				7710347114D37B4700343229 /* USDADatabaseImporter.h */,
+				7710347214D37B4700343229 /* USDADatabaseImporter.m */,
+				77C7233514FEEE2C00E04638 /* Constants.h */,
+				77DC0724150040DE0083455C /* WarningState.h */,
+				77DC0725150040DE0083455C /* WarningState.m */,
+				772A077D1506D9030049A932 /* NutrientWarningCalculator.h */,
+				772A077E1506D9040049A932 /* NutrientWarningCalculator.m */,
+				56AC1DA4152AC1C600E4E16B /* FirstView.h */,
+				56AC1DA5152AC1C600E4E16B /* FirstView.m */,
+				56AC1DA6152AC1C600E4E16B /* FirstView.xib */,
+				56AC1DA9152AC42C00E4E16B /* secondview.h */,
+				56AC1DAA152AC42C00E4E16B /* secondview.m */,
+				56AC1DAB152AC42C00E4E16B /* secondview.xib */,
+			);
+			path = pocketdietitian;
+			sourceTree = "<group>";
+		};
+		777BA5E514CF5CCA00EC9B71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				772A0770150330E40049A932 /* pocketdietitian.sqlite */,
+				BF9B4EF714D2525D00A79FF1 /* USDA_DB */,
+				777BA5E614CF5CCA00EC9B71 /* pocketdietitian-Info.plist */,
+				777BA5E714CF5CCA00EC9B71 /* InfoPlist.strings */,
+				777BA5EA14CF5CCA00EC9B71 /* main.m */,
+				777BA5EC14CF5CCA00EC9B71 /* pocketdietitian-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		777BA65514CF72C500EC9B71 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				777BA65614CF72C500EC9B71 /* Supporting Files */,
+				777BA69014CF88A400EC9B71 /* USDADataModelTest.m */,
+				777BA69214CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.h */,
+				777BA69314CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.m */,
+				7710345D14D3334300343229 /* FoodGroupTableParseTest.m */,
+				7710346F14D36B5000343229 /* NutritionDataTableParseTest.m */,
+				7710347514D37D3300343229 /* USDADatabaseImporterTest.m */,
+				BF7F8C4F14EF11FD000879D4 /* MealTest.h */,
+				BF7F8C5014EF11FD000879D4 /* MealTest.m */,
+				BFBB9BE214F4264D00EE39B7 /* UserDietTest.h */,
+				BFBB9BE314F4264D00EE39B7 /* UserDietTest.m */,
+				BF663D0714FC3F5F00393418 /* NutrientLevelDataModelTest.h */,
+				BF663D0814FC3F5F00393418 /* NutrientLevelDataModelTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		777BA65614CF72C500EC9B71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				777BA65714CF72C500EC9B71 /* Tests-Info.plist */,
+				777BA65814CF72C500EC9B71 /* InfoPlist.strings */,
+				777BA65B14CF72C500EC9B71 /* main.m */,
+				777BA65D14CF72C500EC9B71 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF1C0D5B14E9A299000EECD5 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				BF1C0D5C14E9A52B000EECD5 /* NFNFoodTableCell.h */,
+				BF1C0D5D14E9A52B000EECD5 /* NFNFoodTableCell.m */,
+				BF1C0D5F14E9A563000EECD5 /* NFNFoodTableCell.xib */,
+				7757B32E14EDC30E001636E7 /* NFNProgressView.h */,
+				7757B32F14EDC30E001636E7 /* NFNProgressView.m */,
+				BFBB9C0214F4635E00EE39B7 /* NFNNutrientLevelView.xib */,
+				BFBB9C0414F463E600EE39B7 /* NFNNutrientLevelView.h */,
+				BFBB9C0514F463E600EE39B7 /* NFNNutrientLevelView.m */,
+				BFBB9C0714F5502300EE39B7 /* NFNProgressView.xib */,
+				BF43624C15014562005CAED7 /* NutrientLevelsFooter.xib */,
+				BF43625115015463005CAED7 /* NutrientLevelsFooter.h */,
+				BF43625215015463005CAED7 /* NutrientLevelsFooter.m */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
+		BF3CD984150191AB00F8926E /* levels */ = {
+			isa = PBXGroup;
+			children = (
+				77C7235314FF002500E04638 /* warning_icon_red.png */,
+				77C7235414FF002500E04638 /* warning_icon_yellow.png */,
+				7710DD9014EB7DF3001E18B9 /* progress-bar-fill-yellow.png */,
+				7710DD8C14EB7AC4001E18B9 /* progress-bar-fill-red.png */,
+				7710DD7814EB1152001E18B9 /* progress-bar-fill.png */,
+				7710DD7614EB114A001E18B9 /* progress-bar-bg.png */,
+			);
+			name = levels;
+			sourceTree = "<group>";
+		};
+		BF436256150172FE005CAED7 /* dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				BF43626315018123005CAED7 /* buttons */,
+				BF43625F1501752F005CAED7 /* tablecloth.png */,
+				BF43625715017357005CAED7 /* iconbar.png */,
+				BF43625815017357005CAED7 /* levelsBackgroundTexture.png */,
+				BF43625915017357005CAED7 /* levelsTitleBar.png */,
+				BF43625A15017357005CAED7 /* navbar.png */,
+			);
+			name = dashboard;
+			sourceTree = "<group>";
+		};
+		BF43626315018123005CAED7 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				BF43626415018153005CAED7 /* about_off.png */,
+				BF43626515018153005CAED7 /* askdietitian_off.png */,
+				BF43626615018153005CAED7 /* editdiet_off.png */,
+				BF43626715018153005CAED7 /* overview_off.png */,
+				BF4362611501767D005CAED7 /* planameal.png */,
+			);
+			name = buttons;
+			sourceTree = "<group>";
+		};
+		BF990A5514EAFDE7008FA0F6 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				BF990A5714EAFE10008FA0F6 /* NFNNumber.h */,
+				BF990A5814EAFE10008FA0F6 /* NFNNumber.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		BF9B4EF714D2525D00A79FF1 /* USDA_DB */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B4EEC14D2524B00A79FF1 /* FD_GROUP.txt */,
+				BF9B4EED14D2524B00A79FF1 /* FOOD_DES.txt */,
+				BF9B4EEE14D2524B00A79FF1 /* NUT_DATA.txt */,
+				BF9B4EEF14D2524B00A79FF1 /* NUTR_DEF.txt */,
+				BF9B4EF014D2524B00A79FF1 /* WEIGHT.txt */,
+			);
+			name = USDA_DB;
+			sourceTree = "<group>";
+		};
+		BF9B4EFD14D2529900A79FF1 /* USDAUtils */ = {
+			isa = PBXGroup;
+			children = (
+				BF9B4EFE14D252CA00A79FF1 /* USDATableParser.h */,
+				BF9B4EFF14D252CA00A79FF1 /* USDATableParser.m */,
+				BF9B4F0014D252CA00A79FF1 /* USDATableRow.h */,
+				BF9B4F0114D252CA00A79FF1 /* USDATableRow.m */,
+			);
+			name = USDAUtils;
+			sourceTree = "<group>";
+		};
+		BFBB9BEB14F430B300EE39B7 /* DietInfo */ = {
+			isa = PBXGroup;
+			children = (
+				7757B34214F08DE0001636E7 /* UserDailyLimits.h */,
+				7757B34314F08DE0001636E7 /* UserDailyLimits.m */,
+				BFBB9BED14F4311D00EE39B7 /* DefaultDietBuilder.h */,
+				BFBB9BEE14F4311D00EE39B7 /* DefaultDietBuilder.m */,
+				BFBA61D514F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.h */,
+				BFBA61D614F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.m */,
+			);
+			name = DietInfo;
+			sourceTree = "<group>";
+		};
+		BFCF1EC814E32A0F00964656 /* MealInfo */ = {
+			isa = PBXGroup;
+			children = (
+				BF7F8C4B14EC765F000879D4 /* NutrientAmount.h */,
+				BF7F8C4C14EC765F000879D4 /* NutrientAmount.m */,
+				BFCF1ECA14E32A6500964656 /* Meal.h */,
+				BFCF1ECB14E32A6500964656 /* Meal.m */,
+				BFCA40E314E333FE0069152B /* MealPortion.h */,
+				BFCA40E414E333FE0069152B /* MealPortion.m */,
+			);
+			name = MealInfo;
+			sourceTree = "<group>";
+		};
+		BFD570BA1500011E003D25AA /* Nutrient */ = {
+			isa = PBXGroup;
+			children = (
+				BFD570BC1500017E003D25AA /* NSObject+NutrientDataHelper.h */,
+				BFD570BD1500017E003D25AA /* NSObject+NutrientDataHelper.m */,
+			);
+			name = Nutrient;
+			sourceTree = "<group>";
+		};
+		BFD570BF15000448003D25AA /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				BFD570C015000495003D25AA /* NSDate+NSDateAdditions.h */,
+				BFD570C115000495003D25AA /* NSDate+NSDateAdditions.m */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		777BA5D714CF5CCA00EC9B71 /* pocketdietitian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777BA60B14CF5CCA00EC9B71 /* Build configuration list for PBXNativeTarget "pocketdietitian" */;
+			buildPhases = (
+				777BA5D414CF5CCA00EC9B71 /* Sources */,
+				777BA5D514CF5CCA00EC9B71 /* Frameworks */,
+				777BA5D614CF5CCA00EC9B71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pocketdietitian;
+			productName = pocketdietitian;
+			productReference = 777BA5D814CF5CCA00EC9B71 /* pocketdietitian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		777BA64F14CF72C500EC9B71 /* Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 777BA66114CF72C500EC9B71 /* Build configuration list for PBXNativeTarget "Tests" */;
+			buildPhases = (
+				777BA64C14CF72C500EC9B71 /* Sources */,
+				777BA64D14CF72C500EC9B71 /* Frameworks */,
+				777BA64E14CF72C500EC9B71 /* Resources */,
+				775CC86314D0BC4000BB65A6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tests;
+			productName = Tests;
+			productReference = 777BA65014CF72C500EC9B71 /* Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		777BA5CF14CF5CCA00EC9B71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "New Frontier Nomads";
+			};
+			buildConfigurationList = 777BA5D214CF5CCA00EC9B71 /* Build configuration list for PBXProject "pocketdietitian" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 777BA5CD14CF5CCA00EC9B71;
+			productRefGroup = 777BA5D914CF5CCA00EC9B71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				777BA5D714CF5CCA00EC9B71 /* pocketdietitian */,
+				777BA64F14CF72C500EC9B71 /* Tests */,
+				775CC7F814CFA3BA00BB65A6 /* MOGEN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		777BA5D614CF5CCA00EC9B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BA5E914CF5CCA00EC9B71 /* InfoPlist.strings in Resources */,
+				7710348714D8860800343229 /* FoodAmountViewController.xib in Resources */,
+				771EB8CA14DA0AE300884414 /* MealViewController.xib in Resources */,
+				771EB8EC14E0BB8400884414 /* SearchFoodViewController.xib in Resources */,
+				771EB90314E1D9FC00884414 /* SplitRootViewController.xib in Resources */,
+				771EB90E14E20F2C00884414 /* MealTypeController.xib in Resources */,
+				77D07B0D14E357DB00AB4E42 /* TermsAndConditions.xib in Resources */,
+				7710DD4014E4B3DB001E18B9 /* button_arrow_bg.png in Resources */,
+				7710DD5514E4DFF4001E18B9 /* pdlogo.png in Resources */,
+				BF1C0D6014E9A563000EECD5 /* NFNFoodTableCell.xib in Resources */,
+				7710DD7714EB114A001E18B9 /* progress-bar-bg.png in Resources */,
+				7710DD7914EB1152001E18B9 /* progress-bar-fill.png in Resources */,
+				7710DD8E14EB7AC4001E18B9 /* progress-bar-fill-red.png in Resources */,
+				7710DD9114EB7DF3001E18B9 /* progress-bar-fill-yellow.png in Resources */,
+				BFBB9C0314F4635E00EE39B7 /* NFNNutrientLevelView.xib in Resources */,
+				BFBB9C0814F5502400EE39B7 /* NFNProgressView.xib in Resources */,
+				77C7235514FF002500E04638 /* warning_icon_red.png in Resources */,
+				77C7235614FF002500E04638 /* warning_icon_yellow.png in Resources */,
+				77DC0729150055CD0083455C /* topHalfMockup.png in Resources */,
+				BF43624D15014562005CAED7 /* NutrientLevelsFooter.xib in Resources */,
+				BF436250150149AA005CAED7 /* arrow.png in Resources */,
+				BF43625B15017357005CAED7 /* iconbar.png in Resources */,
+				BF43625C15017357005CAED7 /* levelsBackgroundTexture.png in Resources */,
+				BF43625D15017357005CAED7 /* levelsTitleBar.png in Resources */,
+				BF43625E15017357005CAED7 /* navbar.png in Resources */,
+				BF4362601501752F005CAED7 /* tablecloth.png in Resources */,
+				BF4362621501767D005CAED7 /* planameal.png in Resources */,
+				BF43626815018153005CAED7 /* about_off.png in Resources */,
+				BF43626915018153005CAED7 /* askdietitian_off.png in Resources */,
+				BF43626A15018153005CAED7 /* editdiet_off.png in Resources */,
+				BF43626B15018153005CAED7 /* overview_off.png in Resources */,
+				772A0771150330E40049A932 /* pocketdietitian.sqlite in Resources */,
+				56AC1DA8152AC1C600E4E16B /* FirstView.xib in Resources */,
+				56AC1DAD152AC42C00E4E16B /* secondview.xib in Resources */,
+				56AC1DB3152ACD0300E4E16B /* TermsAndConditionView.xib in Resources */,
+				56AC1DB9152ACE8900E4E16B /* MedicalConditions.xib in Resources */,
+				56AC1DBD152ADB1000E4E16B /* unchecked.png in Resources */,
+				56AC1DBE152ADB1000E4E16B /* check_selected.png in Resources */,
+				56AC1DC8152AFD2A00E4E16B /* PersonalInformation.xib in Resources */,
+				56AC1DD6152B31D300E4E16B /* ReviewAndContinueView.xib in Resources */,
+				565EF5AA152C432F00C40CB3 /* NutrientValuesView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777BA64E14CF72C500EC9B71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BA65A14CF72C500EC9B71 /* InfoPlist.strings in Resources */,
+				BF9B4EF814D2527B00A79FF1 /* FD_GROUP.txt in Resources */,
+				BF9B4EF914D2527E00A79FF1 /* FOOD_DES.txt in Resources */,
+				BF9B4EFA14D2528200A79FF1 /* NUT_DATA.txt in Resources */,
+				BF9B4EFB14D2528500A79FF1 /* NUTR_DEF.txt in Resources */,
+				BF9B4EFC14D2528800A79FF1 /* WEIGHT.txt in Resources */,
+				771EB8CB14DA0AE300884414 /* MealViewController.xib in Resources */,
+				771EB8ED14E0BB8400884414 /* SearchFoodViewController.xib in Resources */,
+				772A0772150330E40049A932 /* pocketdietitian.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		775CC7FC14CFA3C200BB65A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd pocketdietitian\nmogenerator -m pocketdietitian.xcdatamodeld/pocketdietitian.xcdatamodel --template-var arc=true";
+		};
+		775CC86314D0BC4000BB65A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh RunTests.sh";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		777BA5D414CF5CCA00EC9B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BA5EB14CF5CCA00EC9B71 /* main.m in Sources */,
+				777BA5EF14CF5CCA00EC9B71 /* AppDelegate.m in Sources */,
+				777BA5F214CF5CCA00EC9B71 /* pocketdietitian.xcdatamodeld in Sources */,
+				BF9B4F0214D252CA00A79FF1 /* USDATableParser.m in Sources */,
+				BF9B4F0314D252CA00A79FF1 /* USDATableRow.m in Sources */,
+				7710347714D37D8700343229 /* USDADatabaseImporter.m in Sources */,
+				7710348614D8860800343229 /* FoodAmountViewController.m in Sources */,
+				771EB89814D8CE4700884414 /* _Food.m in Sources */,
+				771EB89A14D8CE4700884414 /* _FoodGroup.m in Sources */,
+				771EB89C14D8CE4700884414 /* _FoodNutrientData.m in Sources */,
+				771EB89E14D8CE4700884414 /* _FoodUnitWeight.m in Sources */,
+				771EB8A014D8CE4700884414 /* _Nutrient.m in Sources */,
+				771EB8A414D8CE5200884414 /* Food.m in Sources */,
+				771EB8AE14D8CE6700884414 /* FoodGroup.m in Sources */,
+				771EB8B014D8CE6700884414 /* FoodNutrientData.m in Sources */,
+				771EB8B214D8CE6700884414 /* FoodUnitWeight.m in Sources */,
+				771EB8B414D8CE6700884414 /* Nutrient.m in Sources */,
+				771EB8B814D8F14700884414 /* BaseViewController.m in Sources */,
+				771EB8C814DA0AE300884414 /* MealViewController.m in Sources */,
+				771EB8D214DCBC5800884414 /* UIAlertView+MKBlockAdditions.m in Sources */,
+				771EB8EA14E0BB8400884414 /* SearchFoodViewController.m in Sources */,
+				771EB90214E1D9FC00884414 /* SplitRootViewController.m in Sources */,
+				771EB90D14E20F2C00884414 /* MealTypeController.m in Sources */,
+				BFCF1ECC14E32A6500964656 /* Meal.m in Sources */,
+				BFCA40E514E333FE0069152B /* MealPortion.m in Sources */,
+				77D07B0C14E357DB00AB4E42 /* TermsAndConditions.m in Sources */,
+				7710DD2614E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m in Sources */,
+				7710DD3A14E48C3F001E18B9 /* NSManagedObjectContext+NSManagedObjectContext_blocks.m in Sources */,
+				BF1C0D5E14E9A52B000EECD5 /* NFNFoodTableCell.m in Sources */,
+				BF990A5914EAFE10008FA0F6 /* NFNNumber.m in Sources */,
+				7757B33014EDC30E001636E7 /* NFNProgressView.m in Sources */,
+				BF7F8C4D14EC765F000879D4 /* NutrientAmount.m in Sources */,
+				7757B34414F08DE1001636E7 /* UserDailyLimits.m in Sources */,
+				BFBB9BEF14F4311D00EE39B7 /* DefaultDietBuilder.m in Sources */,
+				BFBB9C0614F463E600EE39B7 /* NFNNutrientLevelView.m in Sources */,
+				BFBA61D714F83BD900614157 /* UserConsumedNutrientLevelsAndLimits.m in Sources */,
+				BF663CF014FC3B4500393418 /* _DailyNutrientLevels.m in Sources */,
+				BF663CF414FC3B4500393418 /* _NutrientLevel.m in Sources */,
+				BF663D0114FC3B8000393418 /* DailyNutrientLevels.m in Sources */,
+				BF663D0514FC3B8000393418 /* NutrientLevel.m in Sources */,
+				77DC0726150040DE0083455C /* WarningState.m in Sources */,
+				BFD570BE1500017E003D25AA /* NSObject+NutrientDataHelper.m in Sources */,
+				BFD570C215000495003D25AA /* NSDate+NSDateAdditions.m in Sources */,
+				BF43625315015463005CAED7 /* NutrientLevelsFooter.m in Sources */,
+				772A077F1506D9040049A932 /* NutrientWarningCalculator.m in Sources */,
+				56AC1DA7152AC1C600E4E16B /* FirstView.m in Sources */,
+				56AC1DAC152AC42C00E4E16B /* secondview.m in Sources */,
+				56AC1DB2152ACD0300E4E16B /* TermsAndConditionView.m in Sources */,
+				56AC1DB8152ACE8900E4E16B /* MedicalConditions.m in Sources */,
+				56AC1DC7152AFD2A00E4E16B /* PersonalInformation.m in Sources */,
+				56AC1DD5152B31D300E4E16B /* ReviewAndContinueView.m in Sources */,
+				565EF5A9152C432F00C40CB3 /* NutrientValuesView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		777BA64C14CF72C500EC9B71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777BA65C14CF72C500EC9B71 /* main.m in Sources */,
+				777BA68D14CF85FB00EC9B71 /* pocketdietitian.xcdatamodeld in Sources */,
+				777BA69114CF88A400EC9B71 /* USDADataModelTest.m in Sources */,
+				777BA69414CF8F1000EC9B71 /* NFNBaseCoreDataTestCase.m in Sources */,
+				BF9B4F0414D2530C00A79FF1 /* USDATableParser.m in Sources */,
+				BF9B4F0514D2530F00A79FF1 /* USDATableRow.m in Sources */,
+				7710346814D342B000343229 /* FoodGroupTableParseTest.m in Sources */,
+				7710347014D36B5000343229 /* NutritionDataTableParseTest.m in Sources */,
+				7710347314D37B4700343229 /* USDADatabaseImporter.m in Sources */,
+				7710347614D37D3400343229 /* USDADatabaseImporterTest.m in Sources */,
+				771EB89914D8CE4700884414 /* _Food.m in Sources */,
+				771EB89B14D8CE4700884414 /* _FoodGroup.m in Sources */,
+				771EB89D14D8CE4700884414 /* _FoodNutrientData.m in Sources */,
+				771EB89F14D8CE4700884414 /* _FoodUnitWeight.m in Sources */,
+				771EB8A114D8CE4700884414 /* _Nutrient.m in Sources */,
+				771EB8A514D8CE5200884414 /* Food.m in Sources */,
+				771EB8AF14D8CE6700884414 /* FoodGroup.m in Sources */,
+				771EB8B114D8CE6700884414 /* FoodNutrientData.m in Sources */,
+				771EB8B314D8CE6700884414 /* FoodUnitWeight.m in Sources */,
+				771EB8B514D8CE6700884414 /* Nutrient.m in Sources */,
+				771EB8B914D8F14700884414 /* BaseViewController.m in Sources */,
+				7710DD2714E45984001E18B9 /* NSManagedObjectContext+SingleLineFetch.m in Sources */,
+				BF7F8C5114EF11FD000879D4 /* MealTest.m in Sources */,
+				BF7F8C5214EF189D000879D4 /* NFNNumber.m in Sources */,
+				BF7F8C5314EF189D000879D4 /* MealPortion.m in Sources */,
+				BF7F8C5414EF18AD000879D4 /* NutrientAmount.m in Sources */,
+				BF7F8C5514EF1D89000879D4 /* Meal.m in Sources */,
+				BFBB9BE414F4264D00EE39B7 /* UserDietTest.m in Sources */,
+				BF663CF114FC3B4500393418 /* _DailyNutrientLevels.m in Sources */,
+				BF663CF514FC3B4500393418 /* _NutrientLevel.m in Sources */,
+				BF663D0214FC3B8000393418 /* DailyNutrientLevels.m in Sources */,
+				BF663D0614FC3B8000393418 /* NutrientLevel.m in Sources */,
+				BF663D0914FC3F5F00393418 /* NutrientLevelDataModelTest.m in Sources */,
+				772A07801506D9040049A932 /* NutrientWarningCalculator.m in Sources */,
+				775E8C3D1515BCFD00E67D1A /* WarningState.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		777BA5E714CF5CCA00EC9B71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777BA5E814CF5CCA00EC9B71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		777BA65814CF72C500EC9B71 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				777BA65914CF72C500EC9B71 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7710DD4B14E4D3EE001E18B9 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad Hoc";
+		};
+		7710DD4C14E4D3EE001E18B9 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Andrej Kostresevic";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketdietitian/pocketdietitian-Prefix.pch";
+				INFOPLIST_FILE = "pocketdietitian/pocketdietitian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0E71FA6-B7D8-49D8-B8B9-29A77B974464";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		7710DD4D14E4D3EE001E18B9 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad Hoc";
+		};
+		7710DD4E14E4D3EE001E18B9 /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Ad Hoc";
+		};
+		775CC7FA14CFA3BA00BB65A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		775CC7FB14CFA3BA00BB65A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		777BA60914CF5CCA00EC9B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		777BA60A14CF5CCA00EC9B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		777BA60C14CF5CCA00EC9B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketdietitian/pocketdietitian-Prefix.pch";
+				INFOPLIST_FILE = "pocketdietitian/pocketdietitian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		777BA60D14CF5CCA00EC9B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pocketdietitian/pocketdietitian-Prefix.pch";
+				INFOPLIST_FILE = "pocketdietitian/pocketdietitian-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		777BA66214CF72C500EC9B71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		777BA66314CF72C500EC9B71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		775CC7F914CFA3BA00BB65A6 /* Build configuration list for PBXAggregateTarget "MOGEN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				775CC7FA14CFA3BA00BB65A6 /* Debug */,
+				775CC7FB14CFA3BA00BB65A6 /* Release */,
+				7710DD4E14E4D3EE001E18B9 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777BA5D214CF5CCA00EC9B71 /* Build configuration list for PBXProject "pocketdietitian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777BA60914CF5CCA00EC9B71 /* Debug */,
+				777BA60A14CF5CCA00EC9B71 /* Release */,
+				7710DD4B14E4D3EE001E18B9 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777BA60B14CF5CCA00EC9B71 /* Build configuration list for PBXNativeTarget "pocketdietitian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777BA60C14CF5CCA00EC9B71 /* Debug */,
+				777BA60D14CF5CCA00EC9B71 /* Release */,
+				7710DD4C14E4D3EE001E18B9 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		777BA66114CF72C500EC9B71 /* Build configuration list for PBXNativeTarget "Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				777BA66214CF72C500EC9B71 /* Debug */,
+				777BA66314CF72C500EC9B71 /* Release */,
+				7710DD4D14E4D3EE001E18B9 /* Ad Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		777BA5F014CF5CCA00EC9B71 /* pocketdietitian.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				777BA61114CF6A1900EC9B71 /* pocketdietitian 1.xcdatamodel */,
+				777BA5F114CF5CCA00EC9B71 /* pocketdietitian.xcdatamodel */,
+			);
+			currentVersion = 777BA5F114CF5CCA00EC9B71 /* pocketdietitian.xcdatamodel */;
+			path = pocketdietitian.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 777BA5CF14CF5CCA00EC9B71 /* Project object */;
+}

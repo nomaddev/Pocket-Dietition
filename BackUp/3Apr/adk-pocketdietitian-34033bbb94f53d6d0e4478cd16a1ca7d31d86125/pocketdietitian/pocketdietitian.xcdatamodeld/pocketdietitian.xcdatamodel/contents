@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="872" systemVersion="11D50b" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DailyNutrientLevels" representedClassName="DailyNutrientLevels" syncable="YES">
+        <attribute name="date" attributeType="Date" syncable="YES"/>
+        <relationship name="nutrientLevels" toMany="YES" minCount="1" deletionRule="Cascade" destinationEntity="NutrientLevel" syncable="YES"/>
+    </entity>
+    <entity name="Food" representedClassName="Food" syncable="YES">
+        <attribute name="commonNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptionLong" optional="YES" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="descriptionShort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodGroupCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndbNo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="group" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="FoodGroup" inverseName="foods" inverseEntity="FoodGroup" syncable="YES"/>
+        <relationship name="nutrients" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FoodNutrientData" syncable="YES"/>
+        <relationship name="unitWeights" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="FoodUnitWeight" syncable="YES"/>
+    </entity>
+    <entity name="FoodGroup" representedClassName="FoodGroup" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="foods" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Food" inverseName="group" inverseEntity="Food" syncable="YES"/>
+    </entity>
+    <entity name="FoodNutrientData" representedClassName="FoodNutrientData" syncable="YES">
+        <attribute name="foodNdbNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nutrientNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nutrientValue" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="nutrient" optional="YES" minCount="1" maxCount="1" deletionRule="No Action" destinationEntity="Nutrient" syncable="YES"/>
+    </entity>
+    <entity name="FoodUnitWeight" representedClassName="FoodUnitWeight" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Double" syncable="YES"/>
+        <attribute name="gramWeight" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="ndbNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sequenceNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="unitName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Nutrient" representedClassName="Nutrient" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nutrientNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="units" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NutrientLevel" representedClassName="NutrientLevel" syncable="YES">
+        <attribute name="allowed" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="consumed" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="nutrient" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Nutrient" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DailyNutrientLevels" positionX="-263" positionY="9" width="128" height="75"/>
+        <element name="Food" positionX="241" positionY="153" width="128" height="180"/>
+        <element name="FoodGroup" positionX="43" positionY="288" width="128" height="90"/>
+        <element name="FoodNutrientData" positionX="180" positionY="-72" width="128" height="105"/>
+        <element name="FoodUnitWeight" positionX="484" positionY="153" width="128" height="120"/>
+        <element name="Nutrient" positionX="-11" positionY="-63" width="128" height="90"/>
+        <element name="NutrientLevel" positionX="-270" positionY="216" width="128" height="90"/>
+    </elements>
+</model>

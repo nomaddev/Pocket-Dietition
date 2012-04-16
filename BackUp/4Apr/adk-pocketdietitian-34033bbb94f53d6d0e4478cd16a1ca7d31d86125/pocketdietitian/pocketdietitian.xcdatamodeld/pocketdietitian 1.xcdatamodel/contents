@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="878" systemVersion="11A511a" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Food" syncable="YES">
+        <attribute name="commonNames" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptionLong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descriptionShort" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="foodGroupCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ndbNo" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="groups" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="FoodGroup" inverseName="foods" inverseEntity="FoodGroup" syncable="YES"/>
+    </entity>
+    <entity name="FoodGroup" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="foods" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Food" inverseName="groups" inverseEntity="Food" syncable="YES"/>
+    </entity>
+    <entity name="FoodNutrientData" syncable="YES">
+        <attribute name="foodNdbNo" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="nutrientNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nutrientValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="160" positionY="192" width="128" height="150"/>
+        <element name="FoodGroup" positionX="160" positionY="192" width="128" height="90"/>
+        <element name="FoodNutrientData" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>
